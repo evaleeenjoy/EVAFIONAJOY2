@@ -1,12 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        # # # # #
-        . . . . .
-        . . . . .
-        `)
-})
 basic.forever(function () {
     led.plotBrightness(4, 2, 255)
 })
